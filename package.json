@@ -1,0 +1,28 @@
+{
+  "name": "saule-ruizm",
+  "version": "1.0.0",
+  "description": "- [React](https://reactjs.org/ \"React\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauleruizm/saule-ruizm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauleruizm/saule-ruizm/issues"
+  },
+  "homepage": "https://github.com/sauleruizm/saule-ruizm#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

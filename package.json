@@ -1,0 +1,20 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "Personal web site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauleruizm/saule-ruizm.git"
+  },
+  "author": "Saúl Ruíz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sauleruizm/saule-ruizm/issues"
+  },
+  "homepage": "https://github.com/sauleruizm/saule-ruizm#readme"
+}

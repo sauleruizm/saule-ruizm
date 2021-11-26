@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test
+#quitar comentario para ejecutar los test al momento de hacer commit
+#npm test
